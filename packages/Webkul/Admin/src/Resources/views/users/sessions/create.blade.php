@@ -10,13 +10,13 @@
             @if ($logo = core()->getConfigData('general.design.admin_logo.logo_image'))
                 <img
                     class="h-10 w-[110px]"
-                    src="{{ Storage::url($logo) }}"
+                    src="{{ asset('images/pmna_black.svg') }} }}"
                     alt="{{ config('app.name') }}"
                 />
             @else
                 <img
-                    class="w-max" 
-                    src="{{ bagisto_asset('images/logo.svg') }}"
+                    class="h-20" 
+                    src="{{ asset('images/pmna_black.svg') }}"
                     alt="{{ config('app.name') }}"
                 />
             @endif
