@@ -96,7 +96,7 @@
 
             <!-- Admin Dropdown -->
             <x-slot:content class="!p-0">
-                <div class="flex items-center gap-1.5 border border-b-gray-300 px-5 py-2.5 dark:border-gray-800">
+                {{-- <div class="flex items-center gap-1.5 border border-b-gray-300 px-5 py-2.5 dark:border-gray-800">
                     <img
                         src="{{ url('cache/logo/bagisto.png') }}"
                         width="24"
@@ -107,7 +107,7 @@
                     <p class="text-gray-400">
                         @lang('admin::app.components.layouts.header.app-version', ['version' => 'v' . core()->version()])
                     </p>
-                </div>
+                </div> --}}
 
                 <div class="grid gap-1 pb-2.5">
                     <a
